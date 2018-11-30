@@ -1,6 +1,5 @@
-
 html {
-   background-color: #e8ffc9; 
+    background-color: #e8ffc9;
 }
 
 #logo {
@@ -21,7 +20,7 @@ a:hover {
 h1 {
     color: deeppink;
     border: 2px green solid;
-/*
+    /*
     padding-left: 12px;
     margin-right: 350px;
 */
@@ -61,8 +60,8 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content:flex-start;
-    
+    justify-content: flex-start;
+
 }
 
 header nav li {
@@ -86,11 +85,11 @@ footer {
     justify-content: center;
     background-color: lightgreen;
     font-family: monospace;
-    
+
 }
 
 #title {
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,3 +169,13 @@ footer {
     max-width: 450px;
     max-height: 420px;
 }
+
+
+@media screen and (max-width: 45rem) {
+    header, 
+    main, 
+/*    footer,*/
+    #watermelon_examples,
+    form p {
+        flex-direction: column;
+    } 
