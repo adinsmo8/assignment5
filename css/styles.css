@@ -1,0 +1,172 @@
+
+html {
+   background-color: #e8ffc9; 
+}
+
+#logo {
+    height: 80px;
+    box-shadow: none;
+    padding: 1em;
+}
+
+.examples {
+    height: 130px;
+    box-shadow: 5px 5px green;
+}
+
+a:hover {
+    color: #3e95ed;
+}
+
+h1 {
+    color: deeppink;
+    border: 2px green solid;
+/*
+    padding-left: 12px;
+    margin-right: 350px;
+*/
+}
+
+h2 {
+    color: limegreen;
+}
+
+h3 {
+    color: limegreen;
+}
+
+html {
+    color: deeppink;
+
+}
+
+p {
+    color: forestgreen;
+    font-size: 22pt;
+    font-family: sans-serif;
+    display: flex;
+    background-color: #ffb7a6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    font-size: 1.2em;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    min-height: 600px;
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    font-family: monospace;
+    
+}
+
+#title {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em
+}
+
+#quiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#kinds_of_watermelon1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em
+}
+
+#kinds_of_watermelon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+}
+
+#watermelon_examples {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#watermelon_characteristics1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6em;
+}
+
+#watermelon_characteristics2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em
+}
+
+
+#discovery_pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#season_pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+#discovery_paragraph {
+    display: flex;
+    max-width: 450px;
+    max-height: 420px;
+}
+
+#season_paragraph {
+    display: flex;
+    max-width: 450px;
+    max-height: 420px;
+}
