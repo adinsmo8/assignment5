@@ -174,8 +174,7 @@ footer {
 @media screen and (max-width: 45rem) {
     header, 
     main, 
-/*    footer,*/
     #watermelon_examples,
     form p {
-        flex-direction: column;
+        flex-direction: column;}
     } 
